@@ -22,3 +22,5 @@ If you decide to port `/storage` please note two things:
 Feel free to watch the NordicJS follow-up talk on doing distributed load testing against your server. Note that `/test` contains a duplicate of the code, you can ignore these duplicates.
 
 Any questions? Hit me up on https://gitter.im/amark/gun !
+
+> Note: This does not implement an API for whatever language you port GUN to. The [javascript](http://gun.js.org/docs/javascript) API so far has been the hardest thing to build, not GUN itself. (The API is considered separate from GUN's wire spec protocol.)
