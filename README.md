@@ -12,7 +12,7 @@ Implementation order, follow along with the video:
 4. Port `/resolution`, including the CRDT conflict resolution algorithm, etc., test multiple times against browser, etc.
 5. Port `/key`, etc. its in-memory lookup, etc. test against browser.
 
-Now you're done! You have an in-memory, websocket+JSON port of GUN in your language! Any existing GUN app should be able to point to your peer and things will work, except for long term storage.
+Now you're done! You have an in-memory, websocket+JSON port of GUN in your language! Any existing GUN app* (note: see batching comment below) should be able to point to your peer and things will work, except for long term storage.
 
 If you decide to port `/storage` please note two things:
 
@@ -24,3 +24,16 @@ Feel free to watch the NordicJS follow-up talk on doing distributed load testing
 Any questions? Hit me up on https://gitter.im/amark/gun !
 
 > Note: This does not implement an API for whatever language you port GUN to. The [javascript](http://gun.js.org/docs/javascript) API so far has been the hardest thing to build, not GUN itself. (The API is considered separate from GUN's wire spec protocol.)
+
+
+> *Batching Note: Wire spec sends JSON messages as `msg` however most existing adapters have a batching mechanism that sounds JSON as `[msg, msg, msg]`, this is trivial to fix with something like this:
+
+```
+onSocketReceive(data) {
+  if('[' === data[0]){
+    return JSON.parse(data).forEach(msg => onSocketReceive(msg));
+  }
+  var msg = JSON.parse(data);
+  // ... continue as normal
+}
+```
