@@ -1,3 +1,44 @@
+
+/*
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/store.js
+
+*/
+
 var Radix = require('./radix');
 var Radisk = require('./radisk');
 var fs = require('fs');
