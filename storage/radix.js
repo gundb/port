@@ -1,3 +1,44 @@
+
+/*
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radix.js
+
+*/
+
 var Gun = require('gun');
 ;(function(){
 	var map = Gun.obj.map, no = {}, u;
