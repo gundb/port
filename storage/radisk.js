@@ -1,3 +1,48 @@
+
+/*
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+THIS OUTDATED CODE HAS MAJOR PROBLEMS!
+SEE LATEST: https://github.com/amark/gun/blob/master/lib/radisk.js
+
+*/
+
+
 var fs = require('fs');
 var Gun = require('gun');
 var Radix = require('./radix');
