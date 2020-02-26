@@ -7,7 +7,8 @@ function Dup(){
         dup.s[id] = (+new Date());
         if(!dup.to){
             dup.to = setTimeout(function(){
-                Object.keys(dup.s).forEach(function(time, id){
+                Object.keys(dup.s).forEach(function(id){
+                    var time = dup.s[id];
                     if(opt.age > ((+new Date()) - time)){ return }
                     delete dup.s[id];
                 });
